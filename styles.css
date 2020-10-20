@@ -1,0 +1,65 @@
+head {
+    background-color: darkgreen;
+}
+
+body {
+    background-color: dimgray;
+}
+
+.title {
+    text-align: center;
+    color: rgb(7, 54, 7);
+}
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: rgb(32, 49, 49);
+    position: absolute;
+    height: 75%;
+    overflow: auto;
+  }
+
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+
+  .sidebar a {
+    display: block;
+    color: rgb(177, 177, 177);
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  .sidebar a.active {
+    background-color: rgb(22, 46, 22);
+    background: linear-gradient(0deg, rgba(32, 49, 49,1) 0%, rgba(22,46,22,1) 100%);
+    color: white;
+    font-size: 20px;
+  }
+  
+
+  .sidebar a:hover:not(.active) {
+    background-color: dimgray;
+    color: white;
+  }
+
+
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+    
+  }
+
+  .header {
+    padding: 10px;
+    text-align: center;
+    background: rgb(22, 46, 22);
+    color: white;
+    font-size: 10px;
+  }
