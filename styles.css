@@ -3,12 +3,12 @@ head {
 }
 
 body {
-    background-color: dimgray;
+    background-color: rgb(151, 149, 149);
 }
 
 .title {
     text-align: center;
-    color: rgb(7, 54, 7);
+    color: rgb(109, 121, 109);
 }
 
 .sidebar {
@@ -17,7 +17,7 @@ body {
     width: 200px;
     background-color: rgb(32, 49, 49);
     position: absolute;
-    height: 75%;
+    height: 100%;
     overflow: auto;
   }
 
@@ -44,7 +44,7 @@ body {
   
 
   .sidebar a:hover:not(.active) {
-    background-color: dimgray;
+    background-color:rgb(151, 149, 149);
     color: white;
   }
 
@@ -60,6 +60,6 @@ body {
     padding: 10px;
     text-align: center;
     background: rgb(22, 46, 22);
-    color: white;
-    font-size: 10px;
+    color:rgb(177, 231, 177);
+    font-size: 15px;
   }
