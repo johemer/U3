@@ -1,21 +1,21 @@
 head {
-    background-color: darkgreen;
+    background-color: #379683;
 }
 
 body {
-    background-color: rgb(151, 149, 149);
+    background-color: 	#94a4a4;
 }
 
 .title {
     text-align: center;
-    color: rgb(109, 121, 109);
+    color: #EDF5E1;
 }
 
 .sidebar {
     margin: 0;
     padding: 0;
     width: 200px;
-    background-color: rgb(32, 49, 49);
+    background-color: 	#607c6c;
     position: absolute;
     height: 100%;
     overflow: auto;
@@ -30,22 +30,22 @@ body {
 
   .sidebar a {
     display: block;
-    color: rgb(177, 177, 177);
+    color: #eaefeb;
     padding: 16px;
     text-decoration: none;
   }
   
   .sidebar a.active {
-    background-color: rgb(22, 46, 22);
-    background: linear-gradient(0deg, rgba(32, 49, 49,1) 0%, rgba(22,46,22,1) 100%);
-    color: white;
+    background-color: 	#607c6c;
+    background: linear-gradient(0deg, 	#607c6c 0%,#355347 100%);
+    color: #ba8a5c;
     font-size: 20px;
   }
   
 
   .sidebar a:hover:not(.active) {
-    background-color:rgb(151, 149, 149);
-    color: white;
+    background-color: 	#94a4a4;
+    color: black;
   }
 
 
@@ -57,9 +57,28 @@ body {
   }
 
   .header {
-    padding: 10px;
+    padding: 0px;
     text-align: center;
-    background: rgb(22, 46, 22);
+    background: #355347;
     color:rgb(177, 231, 177);
     font-size: 15px;
   }
+
+  img {
+      width: 160px;
+      height: 100px;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .flex-container > div {
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 20px;}
+
+
