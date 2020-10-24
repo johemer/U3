@@ -48,6 +48,12 @@ body {
     color: black;
   }
 
+  .dropdown-container {
+    font-size: 12px;
+    text-align: left;
+    background: #355347;
+  }
+
 
   div.content {
     margin-left: 200px;
