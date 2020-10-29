@@ -6,6 +6,10 @@ body {
     background-color: 	#94a4a4;
 }
 
+p {
+  font-size: 14px;
+}
+
 .title {
     text-align: center;
     color: #EDF5E1;
@@ -57,8 +61,8 @@ body {
 
   div.content {
     margin-left: 200px;
-    padding: 1px 16px;
-    height: 1000px;
+    padding: 1px 1px;
+    height: 100px;
     
   }
 
@@ -84,7 +88,40 @@ body {
     width: 300px;
     margin: 10px;
     text-align: center;
-    line-height: 75px;
-    font-size: 20px;}
+    line-height: 5px;}
 
+    input[type=text], select, textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+    }
+    
+    input[type=submit] {
+      background-color:#355347;
+      color: #ba8a5c;
+      padding: 12px 15px;
+      border: none;
+    }
+    
+    input[type=submit]:hover {
+      background-color: #45a049;
+    }
 
+    .column {
+      float: left;
+      width: 50%;
+      padding: 25px;
+    }
+    
+
+    
+    /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+      .column, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+      }
+    }

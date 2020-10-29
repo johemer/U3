@@ -16,8 +16,32 @@
     <a href="contact.html">Contact</a>
       </div>
       <div class="content">
-        <h1>Contact</h1>
-        <p>My first paragraph.</p></div>
+        <h1>Contact Us</h1>
+        <p>My first paragraph.</p>
+      
+        <div class="container">
+          <div style="text-align:center">
+          </div>
+          <div class="row">
+            <div class="column">
+              <form action="/action_page.php">
+                <label for="fname">Name</label>
+                <input type="text" id="name" name="firstname" placeholder="Your name..">
+                <label for="lname">Email adress</label>
+                <input type="text" id="eadress" name="emailadress" placeholder="Your email adress..">
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                  <option value="australia">Australia</option>
+                  <option value="canada">Canada</option>
+                  <option value="usa">USA</option>
+                </select>
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                <input type="submit" value="Submit">
+              </form>
+            </div>
+          </div>
+        </div></div>
 
 </body>
 </html
