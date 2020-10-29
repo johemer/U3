@@ -15,9 +15,29 @@ p {
   padding-left: 10px;
 }
 
+#dice {
+  height: 400px;
+  width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 10px 10px 5px #607c6c;
+  border-radius: 4px;
+}
+
+#storefront
+{ height: 200px;
+  width: 300px;}
+
+#presentation
+  {font-size: 16px;
+    margin-top: 40px;
+  }
+
 .title {
     text-align: center;
     color: #EDF5E1;
+    text-shadow: 4px 4px 4px #ba8a5c;
 }
 
 .sidebar {
@@ -26,7 +46,7 @@ p {
     width: 200px;
     background-color: 	#607c6c;
     position: absolute;
-    height: 100%;
+    height: 1000px;
     overflow: auto;
   }
 
@@ -112,7 +132,7 @@ p {
     }
     
     input[type=submit]:hover {
-      background-color: #45a049;
+      background-color: #607c6c;
     }
 
     .column {
