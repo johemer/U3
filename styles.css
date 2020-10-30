@@ -33,12 +33,21 @@ p {
 }
 #boardgame {
   height: 500px;
-  width: 100%;
+  width: 120%;
   border-radius: 4px;
   box-shadow: 4px 4px 5px #607c6c;
 }
+#map {
+  height: 250px;
+  width: 100%;
+  float: right;
+  border-radius: 4px;
+  box-shadow: 4px 4px 5px #607c6c;
+  vertical-align: 50%;
+}
 
-#presentation
+
+.presentation
   {font-size: 16px;
     margin-top: 40px;
   }
@@ -159,7 +168,11 @@ h1, h2, h4 {
       padding: 25px;
     }
     
-
+    ul {
+      list-style-type: circle;
+      text-align: left;
+      line-height: 25px;
+    }
  
 
     @media only screen and (max-width: 700px) {
