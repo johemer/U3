@@ -31,16 +31,25 @@ p {
   border-radius: 4px;
   box-shadow: 4px 4px 5px #607c6c;
 }
-#boardgame {
+#boardgamedragon {
   height: 500px;
   width: 120%;
   border-radius: 4px;
   box-shadow: 4px 4px 5px #607c6c;
+  opacity: 0.7;
+}
+#boardgame, #boardgame2{
+  height: 354px;
+  width: 100%;
+  border-radius: 4px;
+  box-shadow: 4px 4px 5px #607c6c;
+  opacity: 0.7;
 }
 
 #news {
   height: 500px;
   width: 120%;
+  opacity: 0.7;
 }
 
 #map {
