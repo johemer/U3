@@ -51,8 +51,9 @@ p {
   position: absolute;
   left: 1000px;
 }
+
 #open
-{text-align: center;}
+{vertical-align: center;}
 
 
 .presentation
