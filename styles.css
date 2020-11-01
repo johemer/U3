@@ -154,6 +154,8 @@ h1, h2, h4, caption {
       height: 100px;
   }
 
+  
+
   .flex-container {
     display: flex;
     flex-wrap: wrap;
@@ -164,7 +166,7 @@ h1, h2, h4, caption {
     margin: 10px;
     text-align: center;
     line-height: 15px;}
-    
+
     #contact {
       margin: 5px;
       line-height: 30px;
@@ -186,7 +188,7 @@ h1, h2, h4, caption {
     input[type=submit] {
       background-color:#355347;
       color: #ba8a5c;
-      padding: 12px 15px;
+      padding: 6px 15px;
       border: none;
     }
     
@@ -208,6 +210,13 @@ h1, h2, h4, caption {
   border-collapse: collapse;
 padding: 8px;}
  
+iframe{
+  width: 55%;
+ height: 300px; 
+ margin: 0 auto;
+ display:block;
+ border: 0;
+}
 
     @media only screen and (max-width: 700px) {
 
