@@ -19,29 +19,31 @@
         <h1>Contact Us</h1>
         <p>You can either call us at <a id="tel" href="tel:4080000000">408 000 0000</a>, or send a message to us below and we will get back to you as soon as we can.</p>
       
-        <div class="container">
-          <div style="text-align:center">
-          </div>
-          <div class="row">
-            <div class="column">
-              
-                <label for="fname">Name</label>
-                <input type="text" id="name" name="firstname" placeholder="Your name..">
-                <label for="lname">Contact information</label>
-                <input type="text" id="cinformation" name="contactinformation" placeholder="Your contact information..">
-                <label for="Preferredcontact">Preferred way of contact</label>
-                <select id="Pcontact" name="Preferredcontact">
-                  <option value="Textmessage">Text message</option>
-                  <option value="Email">Email</option>
-                  <option value="Phonecall">Phone call</option>
-                </select>
-                <label for="subject">Subject</label>
-                <textarea id="subject" name="subject" placeholder="How can we help you?" style="height:170px"></textarea>
-                <input type="submit" value="Submit">
-              
+        <form id="contact">
+          <fieldset class="twocolumns">
+            <div><label>Name</div><div>
+              <input type="text">
+            </label></div>
+            <div>
+            <label>Contact information</div><div>
+              <input type="text" required>
+            </label></div>
+            <div>
+            <label>Preferred way of contact</div>
+              <div>
+              <input type="Checkbox"> Text message
+              <input type="Checkbox"> Email
+              <input type="Checkbox"> Phone call
+            </label></div>
+            <div>
+            <label>Subject</div><div>
+              <textarea rows="10" required></textarea>
+            </label>
             </div>
-          </div>
-        </div></div>
-
+          </fieldset>
+          <input type="Submit" value="Submit">
+        </form>
+   
+</div>
 </body>
 </html
