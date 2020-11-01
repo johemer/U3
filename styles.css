@@ -23,6 +23,7 @@ p {
   margin-right: auto;
   box-shadow: 10px 10px 5px #607c6c;
   border-radius: 4px;
+  opacity: 0.85;
 }
 
 #storefront, #interior
@@ -95,7 +96,7 @@ h1, h2, h4, caption {
     width: 200px;
     background-color: 	#607c6c;
     position: absolute;
-    height: 1000px;
+    height: 1200px;
     overflow: auto;
   }
 
@@ -163,7 +164,7 @@ h1, h2, h4, caption {
     margin: 10px;
     text-align: center;
     line-height: 15px;}
-
+    
     #contact {
       margin: 5px;
       line-height: 30px;
